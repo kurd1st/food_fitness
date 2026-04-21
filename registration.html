@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Food & Fitness</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="cover">
+        <header>
+            <h1>Food & Fitness</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Fitness.html">Fitness</a></li>
+                <li><a href="Food.html">Food</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Register to Join as a Member</h2>
+            <h3>Contact Us Today</h3>
+            <p><strong>Required fields</strong> are marked with an asterisk (*)</p>
+
+            <form method="post" action="https://webdevbasis.net/scripts/pacific.php" onsubmit="alert('Thanks for submitting for the information')">
+
+                <label for="myFName">First Name: <span class="required">*</span></label>
+                <input type="text" id="myFName" name="myFName" required>
+
+                <label for="myLName">Last Name: <span class="required">*</span></label>
+                <input type="text" id="myLName" name="myLName" required>
+
+                <label for="myDOB">Date of Birth: <span class="required">*</span></label>
+                <input type="date" id="myDOB" name="myDOB" required>
+
+                <label for="myEmail">E-mail: <span class="required">*</span></label>
+                <input type="email" id="myEmail" name="myEmail" required>
+
+                <label for="myPhone">Phone: <span class="required">*</span></label>
+                <input type="tel" id="myPhone" name="myPhone" required>
+
+                <label for="myComments">Comments:</label>
+                <textarea id="myComments" name="myComments" rows="5" cols="50"></textarea>
+
+                <input type="submit" value="Submit Registration">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; Food & Fitness • All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>

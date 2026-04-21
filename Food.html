@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>  
+    <title>Food & Fitness :: Food</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head> 
+
+<body>
+    <div id="cover"></div>
+
+    <header>
+        <h1>Food & Fitness</h1>
+    </header>   
+
+    <nav>
+        <ul> 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Fitness.html">Fitness</a></li>
+            <li><a href="Food.html">Food</a></li>
+            <li><a href="registration.html">Registration</a></li>
+        </ul>
+    </nav>
+
+    <div id="foodimg"></div>
+
+    <main>
+        <h2>Food Guidance</h2>
+
+        <section id="diet">
+            <dl>
+                <dt><strong>Customized diet guidance?</strong></dt>
+                <dd>
+                    We offer experienced dieticians' help to select a proper diet that fits your health needs.
+                </dd>
+            </dl>
+        </section>
+
+        <section id="Fitness">
+            <dl>
+                <dt><strong>Weight Loss Monitoring</strong></dt>
+                <dd>
+                    Our fitness coach and dietician will work together to make sure you are on the right track in your weight loss journey.
+                </dd>
+            </dl>
+        </section>
+
+        <section id="cooking">
+            <dl>
+                <dt><strong>Cooking Classes</strong></dt>
+                <dd>
+                    We offer cooking classes on different diets like plant-based, paleo, keto, and low-carb diets.
+                </dd>
+            </dl>
+        </section>
+
+        <script>
+
+            document.getElementById('diet').addEventListener("click",function()
+            {alert("You clicked the diet Guidence!");})
+
+            document.getElementById('fitness').addEventListener("click",function()
+            {alert("You clicked the Fitness Guidence!");})
+
+            document.getElementById('cooking').addEventListener("click",function()
+            {alert("You clicked the cooking Guidence!");},false)
+
+        </script>
+    </main>
+
+    <footer>
+        <small>
+            <i>
+                Copyright &copy; 2026 Food & Fitness
+            </i>
+        </small>
+        <br>
+        <a href="mailto:mh38283@georgiasouthern.edu">
+            mh38283@georgiasouthern.edu
+        </a>
+    </footer>
+
+</body>
+</html>
